@@ -9,4 +9,6 @@
   []
   (map bundle-as-map (seq (.getBundles *context*))))
 
+; Stuff to add -- locate service. Maybe using a 'let' and 'finally'.
+; Locate a service - and then release it - put the side-effect in a function.
 
