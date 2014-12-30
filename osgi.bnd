@@ -1,0 +1,5 @@
+Embed-Dependency: *;scope=compile;artifactId=clojure|clojure-complete|tools.nrepl;inline=true
+Embed-Transitive: true
+DynamicImport-Package: *
+Bundle-Activator: se.hrmsoftware.tools.clojure.internal.Repl
+Import-Package: !sun.*,*
